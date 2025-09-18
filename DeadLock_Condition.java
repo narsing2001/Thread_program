@@ -59,10 +59,6 @@ Actor Model: Avoids shared state entirely.
 Message Passing: Threads communicate via queues instead of shared locks.
 Immutable Objects: No need for locks if data doesn’t change.
  */
-
-
-
-
 public class DeadLock_Condition {
     public static void main(String[] args) {
         final String str1="Narsing";
